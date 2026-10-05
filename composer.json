@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psr-container",
+    "description": "Tyhp type definitions for psr/container 2.0.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.0.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psr-container-impl": "~2.0.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psr-container-impl"
+        }
+    }
+}
